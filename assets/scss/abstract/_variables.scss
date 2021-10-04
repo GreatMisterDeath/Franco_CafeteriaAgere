@@ -1,0 +1,43 @@
+// Colores
+$color-white: #FFFFFF;
+$color-isabelline: #EEEDED;
+$color-spanishGray: #989797;
+
+$color-coral: #FA824C;
+$color-buff: #F1DD7B;
+$color-vanilla: #F5E7A1;
+
+$color-flame: #E4572E;
+$color-lightRedOchre: #E87554;
+$color-pastelPink: #F2B2A0;
+
+$color-shinyShamrock: #4CA866;
+$color-turquoiseGreen: #9DCFAB;
+$color-pastelGray: #BDDFC7;
+
+$color-blueDeFrance: #3C91E6;
+$color-blueJeans: #5FA5EA;
+$color-jordyBlue: #82B9EF;
+
+$color-black: #000000;
+$color-outerSpace: #454545;
+$color-quickSilver: #A2A2A2;
+
+// Fuentes
+
+$font-roboto: 'Roboto', 'Arial';
+$font-ptMono: 'PT Mono', 'Arial';
+
+////
+// Tamaño de Fuentes
+//
+// Decidi aplicar esta metodologia para escalar las fuentes segun el tamaño de la pantalla, creo que es
+// apropiado para este tipo de pagina por la manera en la que se distribuyen los elementos,
+// la hace responsiva dependiendo de la resolucion de la pantalla.
+//
+
+$font-xxxLarge: 5vw;
+$font-xxLarge: 4vw;
+$font-xLarge: 2.5vw;
+$font-large: 1.8vw;
+$font-medium: 1.4vw;

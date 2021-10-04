@@ -1,0 +1,105 @@
+/////////////////////////////////
+// ----- Bloque inferior ----- //
+/////////////////////////////////
+
+.maincontentDown
+{
+    display: flex;
+
+    h2
+    {
+        font-family: $font-ptMono;
+        font-size: $font-xLarge;
+        font-weight: 400;
+
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    p
+    {
+        font-family: $font-roboto;
+        font-size: $font-medium;
+        font-weight: 300;
+
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+}
+
+.maincontentDown__parent1
+{
+    display: flex;
+
+    width: 66.66666%;
+    height: inherit;
+}
+
+.maincontentDown__parent1-child1
+{
+    align-self: center;
+
+    width: 50%;
+    height: inherit;
+
+    margin: 1vw;
+}
+
+.maincontentDown__parent1-child2
+{
+    position: relative;
+
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+    width: 50%;
+    height: inherit;
+}
+
+.maincontentDown__parent2
+{
+    width: 33.33333%;
+    height: inherit;
+}
+
+.maincontentDown__parent2-img1
+{
+    width: 100%;
+    height: inherit;
+
+    vertical-align: middle;
+}
+
+.maincontentDown__parent2-child2-img1
+{
+    position: absolute;
+
+    width: 100%;
+    height: 80%;
+}
+
+.maincontentDown__parent2-child2-img2
+{
+    position: absolute;
+
+    align-self: center;
+
+    left: -4%;
+    width: 80%;
+    height: 80%;
+
+    z-index: 1;
+}
+
+.maincontentDown__parent2-child2-img3
+{
+    position: absolute;
+
+    left: 90%;
+    width: 20%;
+    height: 60%;
+
+    object-fit: cover;
+
+    z-index: 2;
+}

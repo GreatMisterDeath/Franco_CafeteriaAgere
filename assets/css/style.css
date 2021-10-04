@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.maincontentUp {
+  display: flex;
+}
+.maincontentUp h1 {
+  font-family: "PT Mono", "Arial";
+  font-size: 5vw;
+  font-weight: 400;
+  padding: 1vw;
+}
+.maincontentUp h2 {
+  font-family: "PT Mono", "Arial";
+  font-size: 2.5vw;
+  font-weight: 400;
+  padding: 1vw;
+}
+.maincontentUp p {
+  font-family: "Roboto", "Arial";
+  font-size: 1.4vw;
+  font-weight: 300;
+  padding: 1vw;
+}
+
+.maincontentUp__parent1 {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  width: 66.66666%;
+  height: inherit;
+}
+
+.maincontentUp__parent1-img {
+  width: 100%;
+  height: inherit;
+  vertical-align: middle;
+}
+
+.maincontentUp__parent1-child1 {
+  display: flex;
+  background-color: #FFFFFF;
+  position: absolute;
+  align-self: flex-end;
+  width: 48.5%;
+  height: 35%;
+}
+
+.maincontentUp__parent1-child1Box1 {
+  width: 33.33333%;
+}
+
+.maincontentUp__parent1-child1Box2 {
+  width: 33.33333%;
+}
+
+.maincontentUp__parent1-child1Box3 {
+  width: 33.33333%;
+}
+
+.maincontentUp__parent2 {
+  width: 33.33333%;
+  height: inherit;
+}
+
+.maincontentUp__parent2-child1 {
+  position: absolute;
+  width: 33.33333%;
+  height: inherit;
+}
+
+.maincontentUp__parent2-child1-img1 {
+  position: absolute;
+  align-self: flex-end;
+  left: 66.66666%;
+  width: 12%;
+}
+
+.maincontentUp__parent2-child1-img2 {
+  position: absolute;
+  align-self: flex-end;
+  left: 65.66666%;
+  width: 12%;
+  margin-top: -0.75%;
+}
+
+.maincontentDown {
+  display: flex;
+}
+.maincontentDown h2 {
+  font-family: "PT Mono", "Arial";
+  font-size: 2.5vw;
+  font-weight: 400;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.maincontentDown p {
+  font-family: "Roboto", "Arial";
+  font-size: 1.4vw;
+  font-weight: 300;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.maincontentDown__parent1 {
+  display: flex;
+  width: 66.66666%;
+  height: inherit;
+}
+
+.maincontentDown__parent1-child1 {
+  align-self: center;
+  width: 50%;
+  height: inherit;
+  margin: 1vw;
+}
+
+.maincontentDown__parent1-child2 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  width: 50%;
+  height: inherit;
+}
+
+.maincontentDown__parent2 {
+  width: 33.33333%;
+  height: inherit;
+}
+
+.maincontentDown__parent2-img1 {
+  width: 100%;
+  height: inherit;
+  vertical-align: middle;
+}
+
+.maincontentDown__parent2-child2-img1 {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+
+.maincontentDown__parent2-child2-img2 {
+  position: absolute;
+  align-self: center;
+  left: -4%;
+  width: 80%;
+  height: 80%;
+  z-index: 1;
+}
+
+.maincontentDown__parent2-child2-img3 {
+  position: absolute;
+  left: 90%;
+  width: 20%;
+  height: 60%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "PT Mono", "Arial";
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  .navbar a:hover {
+    color: #989797;
+  }
+  .navbar a:focus {
+    color: #4CA866;
+  }
+
+  .navbar__leftPart {
+    display: flex;
+    width: 100%;
+    height: 64px;
+  }
+
+  .navbar__rightPart {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 64px;
+  }
+}
+@media (min-width: 577px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+  }
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "PT Mono", "Arial";
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  .navbar a:hover {
+    color: #989797;
+  }
+  .navbar a:focus {
+    color: #4CA866;
+  }
+
+  .navbar__leftPart {
+    display: flex;
+    width: 50%;
+    height: 64px;
+  }
+
+  .navbar__rightPart {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 64px;
+  }
+}
+.navbar__buttonPrimary {
+  background-color: #4CA866;
+  font-family: "PT Mono", "Arial";
+  color: #FFFFFF;
+  border: 2px solid #4CA866;
+  margin: 16px;
+}
+.navbar__buttonPrimary:hover {
+  background-color: #9DCFAB;
+  border: 2px solid #9DCFAB;
+  color: #000000;
+}
+
+.navbar__buttonSecondary {
+  background-color: #FFFFFF;
+  font-family: "PT Mono", "Arial";
+  color: #A2A2A2;
+  border: 2px solid #A2A2A2;
+  margin: 16px;
+}
+.navbar__buttonSecondary:hover {
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+/*# sourceMappingURL=style.css.map */

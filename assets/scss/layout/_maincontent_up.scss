@@ -1,0 +1,116 @@
+/////////////////////////////////
+// ----- Bloque superior ----- //
+/////////////////////////////////
+
+.maincontentUp
+{
+    display: flex;
+
+    h1
+    {
+        font-family: $font-ptMono;
+        font-size: $font-xxxLarge;
+        font-weight: 400;
+
+        padding: 1vw;
+    }
+    h2
+    {
+        font-family: $font-ptMono;
+        font-size: $font-xLarge;
+        font-weight: 400;
+
+        padding: 1vw;
+    }
+    p
+    {
+        font-family: $font-roboto;
+        font-size: $font-medium;
+        font-weight: 300;
+
+        padding: 1vw;
+    }
+}
+
+.maincontentUp__parent1
+{
+    display: flex;
+    flex-direction: row-reverse;
+
+    position: relative;
+
+    width: 66.66666%;
+    height: inherit;
+}
+
+.maincontentUp__parent1-img
+{
+    width: 100%;
+    height: inherit;
+
+    vertical-align: middle;
+}
+
+.maincontentUp__parent1-child1
+{
+    display: flex;
+
+    background-color: $color-white;
+    position: absolute;
+
+    align-self: flex-end;
+
+    width: 48.5%;
+    height: 35%;
+}
+
+.maincontentUp__parent1-child1Box1
+{
+    width: 33.33333%;
+}
+
+.maincontentUp__parent1-child1Box2
+{
+    width: 33.33333%;
+}
+
+.maincontentUp__parent1-child1Box3
+{
+    width: 33.33333%;
+}
+
+.maincontentUp__parent2
+{
+    width: 33.33333%;
+    height: inherit;
+}
+
+.maincontentUp__parent2-child1
+{
+    position: absolute;
+
+    width: 33.33333%;
+    height: inherit;
+}
+
+.maincontentUp__parent2-child1-img1
+{
+    position: absolute;
+
+    align-self: flex-end;
+
+    left: 66.66666%;
+    width: 12%;
+}
+
+.maincontentUp__parent2-child1-img2
+{
+    position: absolute;
+
+    align-self: flex-end;
+
+    left: 65.66666%;
+    width: 12%;
+
+    margin-top: -0.75%;
+}

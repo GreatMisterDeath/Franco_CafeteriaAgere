@@ -1,0 +1,124 @@
+@mixin mix_link_color
+{
+    color: $color_black;
+
+    &:hover
+    {
+        color: $color-spanishGray;
+    }
+
+    &:focus
+    {
+        color: $color-shinyShamrock;
+    }
+
+    text-decoration: none;
+}
+
+@media (max-width: 576px)
+{
+    .navbar
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        a
+        {
+            @include mix_link_color;
+            font-family: $font-ptMono;
+            margin-top: 24px;
+            margin-left: 24px;
+        }
+
+        padding: 8px;
+    }
+
+    .navbar__leftPart
+    {
+        display: flex;
+
+        width: 100%;
+        height: 64px;
+    }
+
+    .navbar__rightPart
+    {
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+        height: 64px;
+    }
+}
+@media (min-width: 577px)
+{
+    .navbar
+    {
+        display: flex;
+        flex-direction: row;
+
+        a
+        {
+            @include mix_link_color;
+            font-family: $font-ptMono;
+            margin-top: 24px;
+            margin-left: 24px;
+        }
+
+        padding: 8px;
+    }
+
+    .navbar__leftPart
+    {
+        display: flex;
+
+        width: 50%;
+        height: 64px;
+    }
+
+    .navbar__rightPart
+    {
+        display: flex;
+        justify-content: flex-end;
+
+        width: 50%;
+        height: 64px;
+    }
+}
+
+.navbar__buttonPrimary
+{
+    background-color: $color-shinyShamrock;
+    font-family: $font-ptMono;
+    color: $color-white;
+
+    border: 2px solid $color-shinyShamrock;
+
+    &:hover
+    {
+        background-color: $color-turquoiseGreen;
+        border: 2px solid $color-turquoiseGreen;
+        color: $color-black;
+    }
+
+    margin: 16px;
+}
+
+.navbar__buttonSecondary
+{
+    background-color: $color-white;
+    font-family: $font-ptMono;
+    color: $color-quickSilver;
+
+    border: 2px solid $color-quickSilver;
+
+    &:hover
+    {
+        color: $color-black;
+        border: 2px solid $color-black;
+    }
+
+    margin: 16px;
+}
